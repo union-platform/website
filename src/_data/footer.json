@@ -1,0 +1,51 @@
+{
+  "footerLogo": "/assets/images/logo-footer.svg",
+
+  "contactsHeading": "Contact Info",
+  "contactsInfo":[
+    {
+      "link":"http://unionapp.cc/",
+      "text":"Website"
+    },
+    {
+      "link":"http://ui.unionapp.cc/",
+      "text":"UI-Library"
+    },
+    {
+      "link":"mailto:",
+      "text":"artyom@unionapp.cc"
+    }
+  ],
+
+  "siteMapHeading":"Sitemap",
+  "siteMap":[
+    {
+      "link":"privacy-policy",
+      "text":"Privacy Policy"
+    },
+    {
+      "link":"terms-conditions",
+      "text":"Terms & Condition"
+    }
+  ],
+
+  "socialHeading":"Social Media",
+  "socialMedia":[
+    {
+      "link":"#",
+      "text":"Medium"
+    },
+    {
+      "link":"#",
+      "text":"Behance"
+    },
+    {
+      "link":"#",
+      "text":"Dribbble"
+    },
+    {
+      "link":"#",
+      "text":"Instagram"
+    }
+  ]
+}

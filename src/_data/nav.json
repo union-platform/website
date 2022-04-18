@@ -1,0 +1,6 @@
+{
+  "navLogo":"/assets/images/unionLogo.svg",
+  "navLinks":["home","ui-library","github"],
+  "navBtnLink":"mailto:artyom@unionapp.cc",
+  "navBtnText":"Get in touch"
+}
