@@ -1,0 +1,17 @@
+name: Licenses CI
+
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches: [master]
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Lighthouse
+      uses: foo-software/lighthouse-check-action@master
+      with:
+        urls: 'https://www.unionapp.cc'
