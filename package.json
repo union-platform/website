@@ -1,22 +1,21 @@
 {
-  "name": "roxo_eleventy",
+  "name": "union_website",
   "version": "1.0.0",
-  "description": "",
+  "description": "Union is a platform where you can find your labor of love, join a team, create something important or crazy; this is a place where you can be yourself.",
   "main": ".eleventy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tanvir9290/Roxo_eleventy.git"
+    "url": "https://github.com/union-platform/website.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license" : "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Tanvir9290/Roxo_eleventy/issues"
+    "url": "https://github.com/union-platform/website/issues"
   },
-  "homepage": "https://github.com/Tanvir9290/Roxo_eleventy#readme",
+  "homepage": "https://unionapp.cc",
   "dependencies": {
     "@11ty/eleventy": "^0.12.1"
   }

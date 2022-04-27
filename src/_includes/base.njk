@@ -54,11 +54,11 @@
               {% if navLink == "home" %}
                 <a class="nav-link" href="/">{{navLink | upper}}</a>
               {% elif navLink == "ui-library" %}
-                <a class="nav-link" href="https://ui.unionapp.cc/">{{navLink | upper}}</a>
+                <a target=”_blank” class="nav-link" href="https://ui.unionapp.cc/">{{navLink | upper}}</a>
               {% elif navLink == "github" %}
-                <a class="nav-link" href="https://github.com/union-platform">{{navLink | upper}}</a>
+                <a target=”_blank” class="nav-link" href="https://github.com/union-platform">{{navLink | upper}}</a>
               {% else %}
-                <a class="nav-link" href="/{{navLink}}">{{navLink | upper}}</a> 
+                <a target=”_blank” class="nav-link" href="/{{navLink}}">{{navLink | upper}}</a> 
               {% endif %}
             </li>
             {% endfor %}
@@ -120,7 +120,7 @@
               <h5 class="site-footer-widget-title">{{footer.socialHeading}}</h5>
               <ul class="site-footer-widget-links">
                 {% for socialMedia in footer.socialMedia %}
-                <li><a href="/{{socialMedia.link}}">{{socialMedia.text}}</a></li>
+                <li><a target=”_blank” href="/{{socialMedia.link}}">{{socialMedia.text}}</a></li>
                 {% endfor %}
               </ul>
             </div>
