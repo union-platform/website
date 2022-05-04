@@ -12,6 +12,7 @@ body {
   color: #f9f9f9;
 
   --dark-green: #0DBC44;
+  --dark-green-accessible: #0FD24C;
   --dark: hsla(0, 0%, 13%, 1);
   --transparent-green: hsla(139, 87%, 39%, 0.08);
 }
@@ -132,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-size: 16px;
-  color: #9D9EA5;
+  color: #6F6F7B;
 }
 
 h1 {
@@ -148,7 +149,7 @@ h3 {
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 h5 {
@@ -226,8 +227,8 @@ h6 {
 }
 
 .btn-primary {
-  background: var(--dark-green);
-  color: #fff !important;
+  background: var(--dark-green-accessible);
+  color: #000 !important;
 }
 .btn-primary:hover {
   background: #e07b7b;
